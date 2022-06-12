@@ -1,0 +1,24 @@
+{
+    "name": "usereducer",
+    "version": "0.0.0",
+    "description": "usereducer.com website",
+    "main": "index.js",
+    "scripts": {
+        "build": "echo BUILT",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/usereducer/usereducer.git"
+    },
+    "author": "Philip Polkovnikov <polkovnikov.ph@gmail.com>",
+    "license": "CC-BY-SA-4.0",
+    "bugs": {
+        "url": "https://github.com/usereducer/usereducer/issues"
+    },
+    "homepage": "https://github.com/usereducer/usereducer#readme",
+    "devDependencies": {
+        "gh-pages": "4.0.0"
+    }
+}
